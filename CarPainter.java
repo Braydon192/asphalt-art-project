@@ -1,0 +1,206 @@
+import org.code.neighborhood.*;
+
+public class CarPainter extends PainterPlus {
+
+  public void paintWheels() {
+
+    turnRight();
+    while (canMove()){
+      move();
+    }
+    turnLeft();
+    move();
+    move();
+    move();
+    setPaint(4);
+    while (hasPaint()) {
+      paint("black");
+      move();
+      turnLeft();
+    }
+   move();
+   move();
+   move();
+   move();
+   move();
+   move();
+   move();
+   setPaint(4);
+    while (hasPaint()) {
+      paint("black");
+      move();
+      turnLeft();
+      
+    }
+      turnLeft();
+      turnLeft();
+     while (canMove()){
+      move();
+    }
+  }
+public void paintFrame() {
+  turnRight();
+  while(canMove()){
+    move();
+  }
+  turnLeft();
+  turnLeft();
+  move();
+  turnRight();
+  setPaint(21);
+  paint("black");
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  paint("black");
+  turnLeft();
+  move();
+  move();
+  move();
+  move();
+  turnLeft();
+  move();
+  move();
+  move();
+  move();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  while(canMove()){
+    move();
+  }
+  turnRight();
+  while(canMove()){
+    move();
+  }
+}
+public void paintBody(){
+turnRight();
+setPaint(11);
+while(hasPaint()){
+paint("Blue");
+move();
+}
+turnLeft();
+setPaint(13);
+while(hasPaint()){
+move();
+paint("red");
+}
+setPaint(18);
+move();
+turnRight();
+move();
+turnRight();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+move();
+move();
+move();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+move();
+move();
+move();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+turnLeft();
+move();
+turnLeft();
+paint("red");
+move();
+paint("red");
+move();
+move();
+move();
+move();
+move();
+paint("red");
+move();
+paint("red");
+move();
+paint("red");
+move();
+move();
+move();
+move();
+move();
+paint("red");
+move();
+paint("red");
+turnRight();
+move();
+move();
+turnRight();
+while(canMove()) {
+  move();
+}
+}
+}
